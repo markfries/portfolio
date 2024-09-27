@@ -4,4 +4,12 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
   }
+
+  function popup() {
+    confirm("Currently Not Hosted");
+  }
+  
+  function comingsoon() {
+    confirm("Coming Soon");
+  }
   

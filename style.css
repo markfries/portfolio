@@ -35,6 +35,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  
 }
 
 .nav-links {
@@ -63,6 +64,8 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+
+
 
 /* HAMBURGER MENU */
 
@@ -282,7 +285,14 @@ section {
 
 /* skills */
 #skills {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skillsicon{
+  cursor: pointer;
+  height: 4rem;
 }
 
 .skills-sub-title {
@@ -293,9 +303,17 @@ section {
 }
 
 .skills-details-container {
+  align-self: center;
+  margin-top: 50%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction:row;
+}
+.skills-containers{
+  align-self: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .article-container {
@@ -314,9 +332,11 @@ article {
   gap: 0.5rem;
 }
 
-article .icon {
+article .skillsicon {
   cursor: default;
 }
+
+
 
 /* PROJECTS SECTION */
 

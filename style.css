@@ -247,6 +247,12 @@ section {
 .btn-container{
   gap: 1rem;
 }
+/* EFFECTS */
+#name1:hover{
+  font-size: 4rem;
+}
+
+
 /*  about */
 #about{
   position: relative;
@@ -286,8 +292,13 @@ section {
 /* skills */
 #skills {
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
+}
+
+.divSkills{
+  text-align: center;
 }
 
 .skillsicon{
@@ -415,3 +426,4 @@ footer {
 footer p {
   text-align: center;
 }
+
